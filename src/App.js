@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavArea from './components/NavArea/NavArea';
-import './App.css'
+import './App.css';
+import './Responsive.css';
 import Slider from './components/Slider/Slider';
 import PromoSection from './components/PromoSection/PromoSection';
 import AboutSection from './components/AboutSection/AboutSection';
