@@ -1,0 +1,97 @@
+.event-section{
+
+}
+.section-heading{
+
+}
+.event-items{
+
+}
+.event-items .event-wrap{
+    background-color: #fff;
+    padding: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px 0 rgba(34, 34, 34, .09);
+    border: 2px dashed #ddd;
+}
+.event-items .event-wrap:last-child{
+    margin-bottom: 0;
+}
+.event-details h2 a{
+    color: #333;
+    text-transform: uppercase;
+}
+.event-details h2 a:hover{
+    color: #fab702;
+}
+.event-details p{
+    margin: 0;
+}
+.event-data{
+    background-color: #fab702;
+    display: block;
+    padding: 20px 15px;
+    border-radius: 2px;
+}
+.event-data h2{
+    font-size: 50px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 40px;
+}
+.event-data span{
+    display: block;
+    font-family: roboto, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #27293d;
+    padding: 8px;
+    margin-top: 10px;
+    line-height: 10px;
+}
+.ticket-btn{
+    margin-top: 5px;
+}
+.ticket-btn a{
+    display: block;
+    line-height: inherit;
+    padding: 10px 5px;
+    text-align: center;
+}
+.dafault-btn{
+    background-color: #fab702;
+    color: #fff;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.dafault-btn:hover{
+    background-color: #dba000;
+    color: #fff;
+}
+
+.event-time{
+    margin-bottom: 20px;
+}
+.event-time li{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 600;
+    color: #777;
+    text-transform: uppercase;
+}
+.event-time li i{
+    color: #fab702;
+    margin-right: 5px;
+}
+.event-thumb img{
+    width: 100%;
+}

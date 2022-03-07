@@ -1,0 +1,97 @@
+.reg-section{
+    background-image: url(../../images/pexels-zen-chung-5537939.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+}
+.reg-section::before{
+    background-color: rgba(39, 41, 61, .5);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.reg-wrap{
+    display: flex;
+    align-items: center;
+}
+.reg-content .counter{
+    font-size: 60px;
+    color: #fab702;
+}
+.reg-content h4{
+    color: #555;
+}
+.reg-content h2{
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.reg-content h3{
+    color: #ddd;
+}
+.reg-form{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.form-heading{
+    background-color: #fab702;
+    padding: 40px 0;
+    border-radius: 0 0 20px 20px;
+}
+.form-heading h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+.form-heading span{
+    display: block;
+    font-family: serif, sans-serif, roboto;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+.reg-form .btn.btn-primary{
+    display: block;
+    background-color: #fab702;
+    width: 100%;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.reg-form .btn.btn-primary:hover{
+    background-color: #dba000;
+}
+.reg-form .form-control{
+    background-color: #fafafa;
+    border-radius: 0;
+    border: none;
+    border: 1px solid #eee;
+    outline: none;
+    box-shadow: none;
+    padding: 12px;
+}
+.reg-form form{
+    padding: 40px 30px;
+}
+.reg-form .form-group{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,46 @@
+.promo-section{
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+    z-index: 99;
+}
+.promo-wrap{
+    /* position: absolute; */
+    /* width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; */
+}
+
+.promo-content{
+    background-color: #fab702;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    border-right: 1px solid #dba000;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+.promo-content h3{
+    color: #fff;
+    font-size: 20px;
+}
+.promo-content p{
+    color: #fff;
+}
+
+.read-more {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.read-more:hover{
+    text-decoration: none;
+    color: #fab702;
+}

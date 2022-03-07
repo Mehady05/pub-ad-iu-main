@@ -1,0 +1,11 @@
+.sponsor-section{
+    padding: 20px 0;
+}
+.sponsor-section .sponsor-items img{
+    width: 100%;
+    padding: 20px;
+    opacity: .8;
+}
+.sponsor-section .sponsor-items li img:hover{
+    opacity: 1;
+}
